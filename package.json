@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-app",
+  "author": "Obscuron",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.6.2",
+    "gatsby": "^5.14.6",
+    "gatsby-plugin-manifest": "^5.15.0",
+    "gatsby-plugin-postcss": "^6.15.0",
+    "gatsby-plugin-sitemap": "^6.15.0",
+    "postcss": "^8.5.32",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
+  }
+}
